@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal webpage and Portfolio">
+  <meta name="author" content="Javier Villarroel">
+
+  <title>Javier Webpage</title>
+
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,100,300,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- JAVASCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+
+  <script type="text/javascript" src="js/gallery.js"></script> 
+  <script type="text/javascript" src="js/sketch.min.js"></script> 
+
+</head>
+
+<body id="page-top" class="index">
+
+
+
+  <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Javier Villarroel</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden"><a href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#portfolio" onclick="ga('send', 'event', { eventCategory: 'Portfolio', eventAction: 'Click' })">Portfolio</a></li>
+            <li><a class="page-scroll" href="#about" onclick="ga('send', 'event', { eventCategory: 'About', eventAction: 'Click' })">About</a></li>
+            <li><a class="page-scroll" href="#services" onclick="ga('send', 'event', { eventCategory: 'Services', eventAction: 'Click' })">Services</a></li>
+            <li><a class="page-scroll" href="#contact" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Click' })">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+  <!-- END NAVIGATION -->
+
+
+  <!-- BUBBLES -->
+
+    <div id="containerSketch" style="position: fixed;">
+          <script type="text/javascript" src="js/bubblesColor.js"></script>
+    </div>
+
+ 	<!--END BUBBLES -->
+
+
+  <!-- HEADER -->
+
+    <header>   
+      <div class="intro-text">
+        <!--<div class="intro-lead-in" >Welcome!</div>-->
+        <div class="intro-heading" stye="z-index:-10">Javier Villarroel</div>
+        <a href="#portfolio" class="page-scroll">
+        	<i class="fa fa-4x fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </div>  
+    </header>
+
+  <!-- END HEADER -->
+
+
+  <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+            <h3 class="section-subheading text-muted">Last years' projects</h3>
+          </div>
+        </div>
+        <div class="row" id="portfolio-gallery">
+
+        <!-- Projects added by javascript -->
+
+        </div>
+      </div>
+    </section>
+
+  <!-- END PORTFOLIO -->
+
+
+  <!-- ABOUT -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+        	<div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+            <h3 class="section-subheading text-muted"></h3>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-2">
+            <p>I'm a blend of a researcher, a developer and a maker. Formally educated in Physics, I spent some years in research and teaching at the university. Some years ago, I started to experiment with creative and open technologies.</p>
+          </div>
+          <div class="col-lg-4">
+            <p>Nowdays, I'm involved in different projects related to programming, electronics and digital fabrication, in technologies such as: Python, Javascript, HTML/CSS, Processing, OpenFrameworks, Arduino, 3D Printing, Laser Cutiing and CNC.</p>
+            <p>For more information you can download my resume <a target="_blank" href="JavierVillarroelFreitesCV.pdf">here</a> </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- END ABOUT -->
+
+
+  <!-- SERVICES -->
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Services</h2>
+            <h3 class="section-subheading text-muted">General topics of my work.</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x educa"></i>
+              <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Education & Research</h4>
+            <p class="text-muted">I have experience in teaching and research at the university, and other non academical enviroments.<br> I usually teach courses such as: Creative Coding with Processing, Creative Electronics with Arduino and 3D printing.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x ccode"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Programing</h4>
+            <p class="text-muted">I have some experience in programming with the lenguajes or frameworks: Python, Javascript, HTML/CSS, Processing, OpenFrameworks and Arduino.<br> 
+            Within my work I highlight the development of simulation programs, interactives instalations and data analysis.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x fablab"></i>
+              <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+
+            </span>
+            <h4 class="service-heading">Digital Fabrication</h4>
+            <p class="text-muted">I have experience in project development, prototype design, consultancy and teaching at the FabLab. This work is related to 3D printing, Laser Cutting, CNC in general and electronic prototyping.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+  <!-- END SERVICES --> 
+
+
+  <!-- CONTACT -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Contact me soon!</h2>
+            <h3 class="section-subheading text-muted">Networks where you can find me</h3>
+          </div>
+        </div>
+        <div class="row" id="social-net">
+          <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="https://www.facebook.com/javier.villarroel.777" target="_blank">
+				      <span class="fa-stack fa-4x">
+	              <i class="fa fa-circle fa-stack-2x"></i>
+	              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+	            </span>
+            </a>
+			    </div>
+			    <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="https://www.linkedin.com/in/javier-villarroel-7616616" target="_blank">
+				      <span class="fa-stack fa-4x">
+	              <i class="fa fa-circle fa-stack-2x text"></i>
+	              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+	            </span>
+	          </a>
+			    </div>
+			    <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="http://www.behance.com/JavierVillarroel" target="_blank">
+				      <span class="fa-stack fa-4x">
+	              <i class="fa fa-circle fa-stack-2x"></i>
+	              <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
+	            </span>
+            </a>
+			    </div>
+			    <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="https://github.com/JavierVLAB" target="_blank">
+			      	<span class="fa-stack fa-4x">
+	              <i class="fa fa-circle fa-stack-2x"></i>
+	              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+	            </span>
+			      </a>
+			    </div>
+			    <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="http://codepen.io/javierv/" target="_blank">
+			      	<span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
+            </span>
+			      </a>
+			    </div>
+			    <div class = "col-md-2 col-sm-4 social-item">
+			      <a href="mailto:javier.zen@gmail.com?Subject=Hello%20webpage!" target="_blank">
+			      	<span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+			      </a>
+			    </div>
+			  </div>
+      </div>
+    </section>
+
+  <!-- END CONTACT -->
+
+
+  <!-- FOOTER -->
+  
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <span class="copyright">Javier Villarroel</span>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- END FOOTER -->
+
+
+
+  <!-- PROJECTS PAGES -->
+
+  <!-- PROJECT 01 -->
+
+    <div class='portfolio-modal modal fade' id='project01' tabindex='-1' role='dialog' aria-hidden='true'>
+      <div class='modal-content'>
+        <div class='close-modal' data-dismiss='modal'>
+          <div class='lr'>
+            <div class='rl'>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-8 col-lg-offset-2'>
+              <div class='modal-body'>
+
+                <!-- Project Details Go Here -->
+                <h2>Visions Project</h2>
+
+					      <div class='video img-centered'>
+						      <iframe src='http://player.vimeo.com/video/40734835' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+						    </div>               
+
+                <p>Visions Project is an interactive device that allows visualization of psuedo 3-D objects.Those objects are projected onto a pyramidal structure with a LCD monitor, and due to the special geometry of the structure, any user located around the pyramid is able to see a 3·-D image floating inside of the pyramid for any observer located around the pyramid. The structure uses a Kinect camera in order to capture the external movement of the people and to allow a real time interaction user-object.</p>
+                <p>The project was conceived as a DIY (do it yoursef) portable open software project. The structure is light and easy to build and dismantle. The information to create it, build it and make it work is shared with a Creative Commons license.</p>
+
+                <p>The project was developed by Francesca Mereu and Javier Villarroel.</p>
+
+                <p><a target="_blank" href="http://visionsproject.wordpress.com">http://visionsproject.wordpress.com</a></p>
+
+                
+                <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+  <!-- PROJECT 02 -->
+
+    <div class='portfolio-modal modal fade' id='project02' tabindex='-1' role='dialog' aria-hidden='true'>
+      <div class='modal-content'>
+        <div class='close-modal' data-dismiss='modal'>
+          <div class='lr'>
+            <div class='rl'>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-8 col-lg-offset-2'>
+              <div class='modal-body'>
+
+                <!-- Project Details Go Here -->
+                <h2>Big-Games</h2>
+
+                <div class='video v2 img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/51639787' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+                <p>Big-Games was a workshop celebrated at MediaLab Prado in Madrid. In the workshop, teams develop prototypes of games in Processing for a big screen of 15mx10m. Our team developed some games, which highlights a version of Pong.</p>
+
+                <p><a target="_blank" href="http://uncoded.es/biggames/">http://uncoded.es/biggames/</a></p>
+
+                
+                <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+  <!-- PROJECT 03 -->
+
+		<div class='portfolio-modal modal fade' id='project03' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Thank You for Recycling</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='https://www.youtube.com/embed/jQRlfwDdqDI' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>This project aims to bring attention about recycling habits by hacking existing trashs bins. We found an old bin at Dublin streets that had been abondoned many years ago and was not in use any more. We converted it into a recycling bin with a touch of technology. We installed sensors to measure the amount of recycling material going inside the bin and to react when someone approaches to it. The bin interacts with people when they recycle and, at night time, it shows the visualization of the information prevously collected by the sensors.</p>
+
+				        <p>The project was deveploped at the "Interactivos?12 Dublin" workshop organized by Medialab-Prado Madrid and Science Gallery Dublin. Both institutions are members of the StudioLab European Group. The workshop was carried out at the Science Gallery in Dublin.</p>
+
+				        <p>Team Members: Martina Kalogjera, Joaquín Rodríguez, Charlotte Barrois de Sarigny, Reza Safavi, Evangelos Kapros, Javier VIllarroel.</p>
+
+				        <p><a target="_blank" href="https://community.studiolabproject.eu/wiki/thank-you-recycling">https://community.studiolabproject.eu/wiki/thank-you-recycling</a></p>
+				        <p><a target="_blank" href="http://interactivos12.ekapros.eu/">http://interactivos12.ekapros.eu/</a></p>
+
+		            <p><a target="_blank" href="http://visionsproject.wordpress.com">http://visionsproject.wordpress.com</a></p>
+
+		            
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 04 -->
+
+		<div class='portfolio-modal modal fade' id='project04' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>TEDx Guimarães Data Visualization</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/54969280' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>This proyect was commisioned to be presented in the coffee break of the event TEDxGuimaraesWoman (Dec 1st, 2012, Guimaraes, Portugal).</p>
+
+				        <p>The visualization consists on a dynamical graph. Before the event, each participant wrote three words in the registration form that described herself/himself. The visualization shows those three words represented by circles of different colors. Each word is connected with the rest of the words written by the same participant and the size of the circle is proportional to the number of times the word is repeated by different participants. The order in which the words appear in the image follows the registration order.</p>
+				 
+				        <p>As the visualization shows the most common words describing the participants and the connections between them, somehow, the visualization describes the personality of the event and shows the relationship between the participants.</p>
+		            
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 05 -->
+
+		<div class='portfolio-modal modal fade' id='project05' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Space Between</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/54969278' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>The Space Between is an interactive installation where user's silhouettes are projected on a screen in different colours while little particles move freely around the entire screen. When those particles go through a silhouette, they take its colour and conserve it even after going out of the silhouette and entering into a new one.</p>
+
+					      <p>This installation is a metaphor of how abstract Portfolio like ideas move between people through the space, and how they evolve in the process.</p>
+
+					      <p>This project was developed in Processing and used a Kinect camera. It was commisioned to be presented in the coffee break of the event TEDxGuimaraesWoman (Dec 1st, 2012, Guimaraes, Portugal).</p>
+		            
+					      <p><a target="_blank" href="http://vimeo.com/54978049">http://vimeo.com/video/54978049</a></p>
+
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 06 -->
+
+		<div class='portfolio-modal modal fade' id='project06' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Open Hardware LEDs Grid Prototype</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/59181568' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>In this project, we want to develop an open hardware and software controller to transfer any image or video to a grid of LEDs. The grid consists on an array of RGB addressable LEDs that can be directly controlled by a digital signal. Moreover, different grids can be attached to create a bigger display.</p>
+
+					      <p>In the first phase of the project, we've developed a prototype that transfers the silhouettes captured by a Kinect camera to the grid. This prototype was created with Procesing and Arduino.</p>
+					      
+					      <p>Work in progress.</p>
+
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 07 -->
+
+		<div class='portfolio-modal modal fade' id='project07' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>GraviTrackMe</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/59854198' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>This is a micro interactive project created for MediaLab-Prado's digital facade in the showcase of interactive sketches "#codethesquare". This event was carried on within the context of the contemporary art fair ARCO (Madrid, 2013).</p>
+ 
+					      <p>In the skecth coloured stars move freely in the screen. When people enter into the square, they are represented in the screen by crosses. These crosses attract the stars producing an interactive dance on the screen.</p>
+
+					      <p>Try the sketch online in the link:<br>
+					      <a target="_blank" href="http://programalaplaza.medialab-prado.es/sketch/view/bc1cccc0a9dba4b6495f26c9467a3792">programalaplaza.medialab-prado.es/sketch/view/bc1cccc0a9dba4b6495f26c9467a3792</a></p>
+
+					      <p>More info of the event:<br>
+					      <a target="_blank" href="http://medialab-prado.es/article/programalaplaza_afterarco">medialab-prado.es/article/programalaplaza_afterarco</a><br>
+					      <a target="_blank" href="http://programalaplaza.medialab-prado.es/">programalaplaza.medialab-prado.es/</a></p>
+
+
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 08 -->
+
+		<div class='portfolio-modal modal fade' id='project08' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Smart Market Experience</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/73210286' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>Smart Market Experience is a interactive device developed for retail purposes. It consists in a screen that shows the store cataloge and a hand traking software that allows to users move a cursor int the  screens. Smart Market permit looking for detailed information about the products and buy it.
+				        <p>This system was developed in Processing and it uses the Kinect camera like sensor.</p>
+				 
+				        <p>This project was developed by ThinkBig-Factory company (Chema Diaz del Corral (Principal coder), Javier Villarroel and Ion Cuervas).</p>
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 09 -->
+
+		<div class='portfolio-modal modal fade' id='project09' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Info Shell</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='http://player.vimeo.com/video/76409212' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            <p>Info Shelf Experience is the name of a interactive product for retail purpose. This allow show detail information about shoes arranged on the shelf buy the client. Information such as: sizes available, colors, materials, recomended uses, etc.</p>
+          
+				        <p>The software was developed on Processing and it uses 3 Arduinos with NFC shield in order to detect the shoes when they are placed on the shelf.</p>
+				 
+				        <p>This product was developed by "Think Big Factory" company for the outdoor store Barrabes.</p>
+
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 10 -->
+
+		<div class='portfolio-modal modal fade' id='project10' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>eMotions</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='https://www.youtube.com/embed/APh0wwqrO-w' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+                <p>eMotions is a serie of interactive applications products developed for different context such as: educational games, ludic enviromental, retail catalogue and others. eMotions was developed on "Processing" with the Kinect camera. This work was carried out for the company of software development Easy-Code.</p>  
+
+				        <p>The video shows a presentations of different applications showed in the coffe break of the TEDx on Madrid (November 2013).</p>
+				 
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+  <!-- PROJECT 11 -->
+
+    <div class='portfolio-modal modal fade' id='project11' tabindex='-1' role='dialog' aria-hidden='true'>
+      <div class='modal-content'>
+        <div class='close-modal' data-dismiss='modal'>
+          <div class='lr'>
+            <div class='rl'>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-8 col-lg-offset-2'>
+              <div class='modal-body'>
+
+                <!-- Project Details Go Here -->
+                <h2>Inventos de Tesla</h2>
+         
+                <img class='img-responsive img-centered' src='img/projects/Tesla01.png' alt=''>
+
+					      <p>"The inventions of Tesla" was a public presentation about  the physicist Nikola Tesla. The talk revolves about some anecdotes of the childhood of Tesla and invited the public to participate in recreation of some experiments.</p>  
+
+								<p>The talk took place in the Telefonica Foundation </p>
+
+					      <p>
+					      <a target="_blank" href="https://espacio.fundaciontelefonica.com/evento/los-inventos-de-tesla/">https://espacio.fundaciontelefonica.com/evento/los-inventos-de-tesla/</a>
+					      </p>
+
+					      <img class='img-responsive img-centered' src='img/projects/Tesla03.png' alt=''>
+
+					      <img class='img-responsive img-centered' src='img/projects/Tesla04.png' alt=''>
+
+					      <img class='img-responsive img-centered' src='img/projects/Tesla06.png' alt=''>
+
+					      <img class='img-responsive img-centered' src='img/projects/Tesla07.png' alt=''>
+   
+                <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+  <!-- PROJECT 12 -->
+
+    <div class='portfolio-modal modal fade' id='project12' tabindex='-1' role='dialog' aria-hidden='true'>
+      <div class='modal-content'>
+        <div class='close-modal' data-dismiss='modal'>
+          <div class='lr'>
+            <div class='rl'>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-8 col-lg-offset-2'>
+              <div class='modal-body'>
+
+                <!-- Project Details Go Here -->
+                <h2>eMotions - Xmas</h2>
+
+                <div class='video v2 img-centered'>
+			          	<iframe src='https://www.youtube.com/embed/XPhwytqEmWk' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div> 
+
+
+
+								<p>In Xmas 2014, an interactive ludic application was developed for interact with people from the street. "eMotions" allow that people of any age play for a little time while they walk around the street.</p>
+								<p>This application was developed for Utopicus, a coworkers space. They found that many people entered to the place to ask about what they do.</p>
+
+								<p><a target="_blank" href="http://ubiquotechs.com/projects/nieve-cayendo/">http://ubiquotechs.com/projects/nieve-cayendo/</a></p>
+
+                
+                <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+  <!-- PROJECT 13 -->
+
+		<div class='portfolio-modal modal fade' id='project13' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Creative Technologies in the Classroom</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='https://www.youtube.com/embed/I1sAdwqX6m4' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+		            
+								<p>Creative Technologies in the Classroom (CTC) is a project with the aim of introduce basic concepts in programming, electronics, and mechanics for schools. The project challenges traditional methods of learning technology by encouraging teachers and students to use the web as the main tool. The CTC project is a toolbox created by Arduino that comprised of more than 20 experiments; an online source for documentation; and a collaborative space where teachers can share their projects and can get technical help. This project has been successfully implemented in the Region of Castilla La Mancha, Madrid, Barcelona and Ecuador.</p>
+
+								<p>I participate like local coordinator and technical support for the issue of the project in Madrid and Barcelona.</p>
+
+								<p><a target="_blank" href="https://www.arduino.cc/en/Main/CTCprogram">https://www.arduino.cc/en/Main/CTCprogram</a></p>
+
+								<p><a target="_blank" href="https://www.vimeo.com/121790679">https://www.vimeo.com/121790679</a></p>
+
+
+
+
+		            
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 14 -->
+
+		<div class='portfolio-modal modal fade' id='project14' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Travesía por los Estados de las Palabras</h2>
+
+		            <div class='video img-centered'>
+			          	<iframe src='https://player.vimeo.com/video/123288406' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			          </div>              
+
+								<p>Travesía por los estados de la palabra" is a art installation that shows a journey through different states of the words. This installation celebrates the cultural union between Spain and Colombia through different creative technologies such as: 3D printing, creative coding and big data. During the exhibition, 50 3D printers print over 10,000 words from different works of writer Gabriel Garcia Marquez, placed forming a sea of words.</p>
+
+								<p>This project is framed in the international art fair ARCO 2015 in Madrid where Colombia was the guest country. I was part of the team responsable of the 3D printing.I participated in the team that takes care of everything related to the printing of words.</p>
+
+								<p>Links:
+								<br>
+
+								<a target="_blank" href="http://losestadosdelapalabra.com/outdated.html">http://losestadosdelapalabra.com/outdated.html</a>
+								<br>
+								<a target="_blank" href="http://www.mataderomadrid.org/ficha/4224/travesia-por-los-estados-de-la-palabra.html">http://www.mataderomadrid.org/ficha/4224/travesia-por-los-estados-de-la-palabra.html</a>
+								<br>
+								<a target="_blank" href="http://thecreatorsproject.vice.com/blog/army-of-3d-printers-immortalizes-gabriel-garcia-marquez?utm_source=fbus">http://thecreatorsproject.vice.com/blog/army-of-3d-printers-immortalizes-gabriel-garcia-marquez?utm_source=fbus</a>
+								<br>
+								<a target="_blank" href="http://vimeo.com/123420813">http://vimeo.com/123420813</a>
+								</p>
+		            
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 15 -->
+
+		<div class='portfolio-modal modal fade' id='project15' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>FabLab Open Call 2015-2016</h2>
+
+		            <div class='video img-centered'>
+			          	<embed type="application/x-shockwave-flash" src="http://medialab-prado.es/static/player/player.swf" allowfullscreen="true" flashvars="&amp;file=http://medialab-prado.es/mmedia/17/17339/17339.flv&amp;height=400&amp;width=&amp;autostart=false&amp;skin=http://medialab-prado.es/static/player/skin.swf&amp;frontcolor=ffffff&amp;lightcolor=cc9900&amp;controlbar=over&amp;stretching=uniform&amp;image=http://medialab-prado.eshttp://medialab-prado.es/mmedia/17339/preview_image" height="400" width="500"></embed>
+			          </div>   
+
+			          <p>The fablab open call, is a invitation for develop projects in the FabLab in MediaLab Prado during 6 months.</p>
+
+								<p>Some projects accepted: MicroArquitectura, a kit of pieces for build geometries for kids, Isolation Forniture, a catalogue of futuristic fornitures created by 3D printing, Portatil Desktop, a portatil desktop design for be realized by milling machines without any screw or nail.</p>
+
+								<p>In this project I participated like a technical consultant for the digital fabrication process. I coordinated the teams, teach the different technologies and gave advises on the design of the projects.</p>
+
+								<p><a target="_blank" href="http://medialab-prado.es/article/convocatoria-fablab-2016">http://medialab-prado.es/article/convocatoria-fablab-2016</a><p>
+
+								<p><a target="_blank" href="http://medialab-prado.es/article/convocatoria-de-colaboradores-para-los-proyectos-seleccionados-a-desarrollar-en-el-fablab-enero---mayo-2016-">http://medialab-prado.es/article/convocatoria....-2016-</a><p>
+
+								<p><a target="_blank" href="http://medialab-prado.es/mmedia/17700/view">http://medialab-prado.es/mmedia/17700/view</a><p>
+
+								<p><a target="_blank" href="https://player.vimeo.com/video/153491897">Isolation Forniture Vimeo</a><p>
+
+								
+								<p><a target="_blank" href="https://www.youtube.com/watch?v=4b56nxuw430">MicroArquitectura Youtube</a><p>
+
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 16 -->
+
+		<div class='portfolio-modal modal fade' id='project16' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Objetos Comunes</h2>
+
+		            <img class='img-responsive img-centered' src='img/projects/ObjetosComunes01.png' alt=''>           
+
+		            <p>Objetos Comunes (<em>Objects in Commun</em>) is a exposition of collaborative projects, presented in MediaLab Prado in fall 2015. This exposition investigates questions related to the accesibility to the open projects, the scale production of a community and the relationship between the artesan and the digital process.</p> 
+
+								<p>In this work, I have participated in the development of many projects like technical consultant from digital frabication process.</p>
+
+								<p><a target="_blank" href="http://objetoscomunes.medialab-prado.es/">http://objetoscomunes.medialab-prado.es/</a></p>
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+	<!-- PROJECT 17 -->
+
+		<div class='portfolio-modal modal fade' id='project17' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>MyMaker</h2>
+
+		            <img class='img-responsive img-centered' src='img/projects/MyMaker960.png' alt=''>           
+
+		            <p>My Maker is a 3D printer based on a Ultimaker original Plus. before, I had built a RepRap Prusa I3, however, that machine present some practical issues. Basically, MyMaker is a box, this box have all the mechanics and electronics together and better located, protected from dust and accidental impacts.</p>
+
+		            <p>MyMaker is a prototype not finished yet. Work in progress.</p>
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+<!-- PROJECT 18 -->
+
+		<div class='portfolio-modal modal fade' id='project18' tabindex='-1' role='dialog' aria-hidden='true'>
+		  <div class='modal-content'>
+		    <div class='close-modal' data-dismiss='modal'>
+		      <div class='lr'>
+		        <div class='rl'>
+		        </div>
+		      </div>
+		    </div>
+		    <div class='container'>
+		      <div class='row'>
+		        <div class='col-lg-8 col-lg-offset-2'>
+		          <div class='modal-body'>
+
+		            <!-- Project Details Go Here -->
+		            <h2>Word Cup Interactive Attendance Map</h2>
+
+		            <img class='img-responsive img-centered' src='img/projects/WorldCup.png' alt=''>           
+
+		            <p>This is an example of how to interact charts and map in D3.js. The visualization shows the attendances of the worl cup footbal soccer games by year and contry</p>
+
+		            <p>This visualization is a work in progress.</p>
+
+		            <p>Links:
+
+		            <br>
+
+		            <a target="_blank" href="http://codepen.io/javierv/pen/ozGyaV">Code Pen</a>
+		            <br>
+		            <a target="_blank" href="http://bl.ocks.org/JavierVLAB/50d1c7fcc6d6e48ecabd01a8c010d820">bl.okcs</a>
+		            <br>
+		            <a target="_blank" href="https://github.com/JavierVLAB/DataAnalysisScience/blob/master/WorldCupGeo/WorldCupGeo.ipynb">Data analysis notebook in Github</a>
+		            <br>
+		            <a target="_blank" href="https://gist.github.com/JavierVLAB/50d1c7fcc6d6e48ecabd01a8c010d820">Gist on Github</a>
+		            </p>
+
+
+		            <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>   
+
+
+    <!-- PROJECT 19 -->
+
+    <div class='portfolio-modal modal fade' id='project19' tabindex='-1' role='dialog' aria-hidden='true'>
+      <div class='modal-content'>
+        <div class='close-modal' data-dismiss='modal'>
+          <div class='lr'>
+            <div class='rl'>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-lg-8 col-lg-offset-2'>
+              <div class='modal-body'>
+
+                <!-- Project Details Go Here -->
+                <h2>MeMe Music</h2>
+
+                <img class='img-responsive img-centered' src='img/projects/MemeMusicB.png' alt=''>           
+
+                <p>Music software allows music creation using the brain waves of the user; because the music is generated by the brain wave through the Brain Computer Interface (BCI) and a composition with a sequencer, but is not a simple reactive interface, it creates a deep feedback communication between the creation and the creator mind.</p>
+
+                <p><a target="_blank" href="https://vimeo.com/103657205">MeMe Music</a><p>
+
+                <button type='button' class="btn btn-lg btn-info" data-dismiss='modal'><i class='fa fa-times'></i> Close </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+
+
+
+  <!-- GOOGLE ANALYTICS -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-79053911-1', 'auto');
+    ga('send', 'pageview');
+
+    setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
+
+    var runned = false; 
+	$( window ).scroll( function() { 
+	  if ( $( document ).scrollTop() >= 800 && runned == false ) { 
+	    ga('send', 'event', { eventCategory: 'Scrolled 800px', eventAction: 'Scroll' }); 
+	  runned = true; 
+	  } 
+	});
+
+  </script>
+
+	<!-- script for track links  
+	<a href="#yourlink" onclick="ga('send', 'event', { eventCategory: 'My Link', eventAction: 'Click' })">My Link</a>
+	-- >
+
+  <!-- GOOGLE ANALYTICS END -->
+
+
+</body>
+
+</html>
